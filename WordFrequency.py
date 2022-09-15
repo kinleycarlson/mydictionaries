@@ -8,7 +8,7 @@ words = text.split(' ')
 print(words)
 
 for word in words:
-    if word in dict():
+    if word in list(dict()):
         dict[word] += 1
     else:
         dict[word] = 1
